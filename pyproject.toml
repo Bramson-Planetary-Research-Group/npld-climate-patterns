@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "icy"
+version = "0.1.0"
+description = "Mars ice."
+authors = ["Tom McClintock <tmcclintock89@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+scipy = "^1.9.3"
+matplotlib = "^3.6.2"
+numpy = "^1.23.4"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.2.0"
+coverage = "^6.5.0"
+pre-commit = "^2.20.0"
+black = "^22.10.0"
+isort = "^5.10.1"
+flake8 = "^5.0.4"
+interrogate = "^1.5.0"
+pydocstyle = "^6.1.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
